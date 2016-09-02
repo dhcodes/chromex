@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "TesterB",
+  "description": "",
+  "version": "1.3",
+  "background": {
+    "scripts": [
+        "background.js"
+        ],
+        "persistent": true
+      },
+  "browser_action": {
+   "default_title": "Run Script"
+
+  },
+  "permissions": [
+   "<all_urls>",
+   "activeTab",
+   "background"
+   ]
+}
